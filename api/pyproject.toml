@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "backend"
+version = "0.0.1"
+description = ""
+authors = ["Maxim Kuzmin"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.115.11"}
+pyjwt = {extras = ["crypto"], version = "^2.10.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
